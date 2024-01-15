@@ -1,11 +1,15 @@
 # Hello MarkDown
+
 It my first try with MarkDown
 
 ## How this work
+
 It is really nice to work with text indenting. 
 
 ### javaScript Code 
-<!DOCTYPE html>
+
+
+    <!DOCTYPE html>
 <html>
 <body>
 
@@ -24,3 +28,4 @@ document.getElementById("demo").innerHTML = x;
 
 </body>
 </html>
+
