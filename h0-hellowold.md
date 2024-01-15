@@ -10,10 +10,9 @@ It is really nice to work with text indenting.
 
     const App = () => {
         const [open, setOpen] = React.useState(false);
-
-  const handleDrawerToggle = () => {
-    setOpen(!open);
-  };
+          const handleDrawerToggle = () => {
+            setOpen(!open);
+              };
 
 
 
