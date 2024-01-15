@@ -8,24 +8,12 @@ It is really nice to work with text indenting.
 
 ### javaScript Code 
 
+    const App = () => {
+        const [open, setOpen] = React.useState(false);
 
-    <!DOCTYPE html>
-<html>
-<body>
+  const handleDrawerToggle = () => {
+    setOpen(!open);
+  };
 
-<h2>JavaScript Variables</h2>
 
-<p>In this example, x is defined as a variable.
-Then, x is assigned the value of 6:</p>
-
-<p id="demo"></p>
-
-<script>
-let x;
-x = 6;
-document.getElementById("demo").innerHTML = x;
-</script>
-
-</body>
-</html>
 
