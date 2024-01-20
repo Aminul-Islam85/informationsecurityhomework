@@ -1,1 +1,41 @@
+DARKNET DIARIES
+EP 102: Money Maker 
+The episode of "Darknet Diaries" features the story of Frank Bourassa, a Canadian who had a penchant for high-risk, high-reward endeavours. Frank, who thrived in challenging situations and complex problem-solving, began his criminal activities in high school, initially dealing in stolen clothes. His journey led him to become an auto mechanic, and eventually, he started his own businesses, including a car part factory.
+Despite his business success, Frank returned to criminal activities, dealing in marijuana, and then counterfeiting. He meticulously researched and executed a plan to produce counterfeit money, focusing on US twenty-dollar bills. Frank's operation was sophisticated, involving the procurement of special paper, ink, and printing equipment. Despite the risks, including the potential of heavy prison sentences, he was driven by the thrill and potential financial rewards.
+However, Frank's criminal enterprise eventually led to his downfall. After being arrested and facing serious charges, he negotiated with authorities by surrendering a significant amount of counterfeit money and equipment in exchange for reduced charges. Frank's story is a mix of cunning, risk-taking, and ultimately, a turn towards legitimacy, as he later shifted to consulting on anti-counterfeiting measures.
+Chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action
+The text "Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains" by Eric M. Hutchins, Michael J. Cloppert, and Rohan M. Amin from Lockheed Martin Corporation, presents an advanced approach to network defense against sophisticated cyber threats, notably the Advanced Persistent Threat (APT). Traditional network defense tools like intrusion detection systems and antivirus are deemed insufficient against these well-resourced, skilled adversaries who conduct long-term, intricate intrusion campaigns to steal sensitive information. The approach uses a kill chain model to understand intrusions, linking individual intrusions into broader campaigns and focusing on the iterative nature of intelligence gathering. This method aims to reduce adversary success and inform network defence investments and resource prioritization.
+3.2 Intrusion Kill Chain
+The Intrusion Kill Chain is a systematic process to engage an adversary in a computer network. It consists of seven phases: reconnaissance, weaponization, delivery, exploitation, installation, command, and control (C2), and actions on objectives. Each phase is critical, and an adversary must successfully complete all to achieve their goal. The paper details each phase:
+1.	Reconnaissance: Identifying and researching targets.
+2.	Weaponization: Coupling a remote access trojan with an exploit into a deliverable payload.
+3.	Delivery: Transmitting the weapon to the target environment.
+4.	Exploitation: Triggering the intruder’s code to exploit vulnerabilities.
+5.	Installation: Installing a backdoor to maintain presence.
+6.	Command and Control (C2): Establishing a channel for remote manipulation.
+7.	Actions on Objectives: Executing actions to achieve the original intent, like data exfiltration.
+
+3.3 Courses of Action
+The paper presents a matrix of courses of action aligned with each phase of the Intrusion Kill Chain, offering strategies like detect, deny, disrupt, degrade, deceive, and destroy. This approach enables defenders to employ specific countermeasures at each phase, thereby disrupting the adversary's progress. For example, during the exploitation phase, host intrusion detection systems (HIDS) can detect exploits, patching can deny exploitation, and data execution prevention (DEP) can disrupt the exploit once it initiates. This comprehensive framework allows defenders to use a range of capabilities, from traditional systems like firewalls to vigilant user detection, effectively countering persistent adversaries who continually adapt their operations.
+
+What to consider the fundamentals of security?
+It's essential to establish a strong foundation in the basic principles and concepts that underpin all aspects of security, whether in information technology, physical security, or cyber security. Here are key topics I would cover:
+1.	The CIA Triad: Introduce the core principles of Confidentiality, Integrity, and Availability. This triad forms the cornerstone of security practices, guiding how information and systems are protected.
+2.	Risk Management: Discuss the concept of risk - the potential for loss or damage when a threat exploits a vulnerability. Emphasize the importance of identifying, assessing, and mitigating risks.
+3.	Threats and Vulnerabilities: Define and differentiate between threats (any potential danger to information or systems) and vulnerabilities (weaknesses that could be exploited by threats).
+4.	Security Layers (Defence in Depth): Explain the concept of layered security. No single defence measure is sufficient; multiple layers of security controls and practices are necessary.
+5.	Basic Security Controls: Introduce various types of security controls - physical, technical, and administrative. Examples include firewalls, encryption, access control policies, and security awareness training.
+6.	Authentication, Authorization, and Accounting (AAA): Discuss the importance of verifying user identity (authentication), ensuring they have the right to access resources (authorization), and tracking their activities (accounting).
+7.	Security Policies and Procedures: Highlight the role of policies and procedures in governing how an organization manages and protects its information and resources.
+8.	Importance of Regular Updates and Patch Management: Stress the need for keeping systems and software up to date as a basic but crucial security practice.
+9.	Basic Cyber Hygiene Practices: Cover fundamentals like strong passwords, awareness of phishing attacks, and the importance of regular backups.
+10.	Introduction to Emerging Threats and Trends: Briefly touch upon current and emerging threats in the security landscape to contextualize the importance of staying informed and adaptable.
+This introductory session sets the stage for more detailed exploration in subsequent classes and helps establish a mindset geared towards proactive and comprehensive security management.
+
+The "Cryptopals Crypto Challenges
+The "Cryptopals Crypto Challenges" are a set of practical exercises designed to teach cryptographic concepts through hands-on experience. These challenges are unique because they focus on attacking real-world crypto systems rather than traditional academic learning methods. The challenges are grouped into eight sets, each increasing in difficulty and covering different aspects of cryptography:
+The challenges are designed to be accessible to anyone with basic programming skills in any language. They emphasize that modern crypto attacks often don't require advanced math, making them approachable for most people. Participants learn about both building cryptosystems and attacking them, gaining a deep understanding of their vulnerabilities.
+The creators of Cryptopals, Thomas Ptacek, Sean Devlin, Alex Balducci, and Marcin Wielgoszewski, along with the Cryptography Services Team at NCC Group, were motivated to start this project by their observation that most cryptographic systems are either broken or on the verge of being broken. They compare the current state of crypto software security to software security in the 1990s, highlighting the need for practical, attack-based learning.
+The Cryptopals challenges aim to give participants a real gut understanding of cryptographic vulnerabilities by guiding them through implementing known attacks. This approach is seen as essential because, despite widespread knowledge of these vulnerabilities, few people have hands-on experience exploiting them.
+Participants retain ownership of their individual exercise submissions, and these may or may not be distributed under an open-source license. The challenges are seen to learn a new programming language or to deepen one's understanding of cryptography and its practical applications in software security.
 
